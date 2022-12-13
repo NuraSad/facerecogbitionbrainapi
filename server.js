@@ -4,11 +4,11 @@ const { response } = require("express");
 const knex = require('knex')({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'dpg-cecfog9gp3jl5ttn9l00-a',
       port : 5432,
       user : 'ainursaduova',
-      password : '',
-      database : 'fr-brain'
+      password : 'FIta8yzOlovsC0ub0r3vUx5rcdM07dCG',
+      database : 'frbdb'
     }
   });
 
